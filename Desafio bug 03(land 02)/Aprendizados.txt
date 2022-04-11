@@ -1,0 +1,21 @@
+-Comando 'gap' no CSS.
+-utilização de tags semanticas para projeto
+-modelo de construção de button:
+ .button {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  background: #69B99D;
+  border: 0;
+  padding: 14px 32px 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
